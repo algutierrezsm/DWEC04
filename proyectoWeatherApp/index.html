@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>El Tiempo</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="icon" href="img/icon.png">
+        <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="logoHeader">
+                  <img src="img/icon.png" alt="Logo El Tiempo">
+                  <p class="texto-nav" style="padding: 10px 15px;">INICIO</p>
+                </a>
+                <form class="search-wrapper">
+                    <input type="search" name="searchNav" id="busquedaTiempo" placeholder="Buscar Ciudad" onsearch="document.getElementById('btnTiempo').click()">
+                    <input type="button" id="btnTiempo" value="Buscar" onclick="redirigir()">
+                </form>
+                <ul class="listaHeader">
+                    <li class="nav-item"><a href="#">ESP/ENG</a></li>
+                    <li class="nav-item"><a href="#">Modo Oscuro</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="loader" id="contenedorPantallaCarga">
+                <span>C</span>
+                <span>A</span>
+                <span>R</span>
+                <span>G</span>
+                <span>A</span>
+                <span>N</span>
+                <span>D</span>
+                <span>O</span>
+            </div>
+            <div style="display:none" id="contenedorTablaEstilo">
+                <table class="tablaEstilo" id="tablaCapitales">
+                    <br>
+                    <h1 style="text-align: center;">El Tiempo en las Capitales Españolas</h1>
+                    <br>
+                    <tr>
+                        <th>Ciudad</th>
+                        <th>Ahora</th>
+                        <th>Hoy</th>
+                        <th>Mañana</th>
+                        <th>Pasado Mañana</th>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
+    <script src="scripts/scripts.js"></script>
+</html>
