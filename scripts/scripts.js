@@ -38,7 +38,7 @@ async function tiempoInicial () {
     let arrayTiempo = [];
     let arrayNombreCiudades = [];
     try{
-        const res = await fetch("../ajax/capitales.json");
+        const res = await fetch("https://github.com/algutierrezsm/DWEC04/blob/38ea7a3a117d9e65fc60dc61de0a958b54c3e4b4/ajax/capitales.json");
         const data = await res.json();
 
         //Bucle para crear un array con todos los datos del tiempo de las ciudades iniciales seleccionadas (capitales Españolas).
