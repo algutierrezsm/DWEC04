@@ -1,0 +1,78 @@
+[
+    {
+        "nombre": "Sevilla",
+        "comunidad-autonoma": "Andalucía"
+    },
+    {
+        "nombre": "Zaragoza",
+        "comunidad-autonoma": "Aragón"
+    },
+    {
+        "nombre": "Oviedo",
+        "comunidad-autonoma": "Asturias"
+    },
+    {
+        "nombre": "Mallorca",
+        "comunidad-autonoma": "Baleares"
+    },
+    {
+        "nombre": "Tenerife",
+        "comunidad-autonoma": "Canarias"
+    },
+    {
+        "nombre": "Santander",
+        "comunidad-autonoma": "Cantabria"
+    },
+    {
+        "nombre": "Toledo",
+        "comunidad-autonoma": "Castilla-La Mancha"
+    },
+    {
+        "nombre": "Valladolid",
+        "comunidad-autonoma": "Castilla y León"
+    },
+    {
+        "nombre": "Barcelona",
+        "comunidad-autonoma": "Cataluña"
+    },
+    {
+        "nombre": "Ceuta",
+        "comunidad-autonoma": "Ceuta"
+    },
+    {
+        "nombre": "Mérida",
+        "comunidad-autonoma": "Extremadura"
+    },
+    {
+        "nombre": "Galicia",
+        "comunidad-autonoma": "Santiago de Compostela"
+    },
+    {
+        "nombre": "Logroño",
+        "comunidad-autonoma": "La Rioja"
+    },
+    {
+        "nombre": "Madrid",
+        "comunidad-autonoma": "Comunidad de Madrid"
+    },
+    {
+        "nombre": "Melilla",
+        "comunidad-autonoma": "Melilla"
+    },
+    {
+        "nombre": "Murcia",
+        "comunidad-autonoma": "Región de Murcia"
+    },
+    {
+        "nombre": "Pamplona",
+        "comunidad-autonoma": "Navarra"
+    },
+    {
+        "nombre": "Valencia",
+        "comunidad-autonoma": "Comunidad Valenciana"
+    },
+    {
+        "nombre": "Vitoria-Gasteiz",
+        "comunidad-autonoma": "País Vasco"
+    }
+]
